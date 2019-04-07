@@ -1,8 +1,8 @@
 <div class="intro">
     {{ $cdn_url := .Scratch.Get "cdn_url" }}
-    
+
     <div class="avatar">
-      <a href="/posts/"> <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar"> </a>
+      <a href="https://blog.halbtonfoto.de"> <img src="https://www.gravatar.com/avatar/{{ md5 .Site.Params.gravatar.email }}?s=240&d=mp" alt="gravatar"> </a>
     </div>
     {{ with .Site.Params.subtitle}}
     <h2 class="description">
@@ -13,4 +13,3 @@
       {{ partial "social.html" . }}
     </div>
 </div>
-

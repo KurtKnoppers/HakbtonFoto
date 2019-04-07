@@ -1,4 +1,4 @@
-baseURL = "https://haöbtonfoto.de"
+baseURL = "https://halbtonfoto.de"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "HalbtonFoto"
@@ -8,7 +8,7 @@ paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+disqusShortname = ""
 
 [sitemap]
   changefreq = "monthly"
@@ -26,30 +26,30 @@ disqusShortname = "yourdiscussshortname"
 [menu]
   [[menu.main]]
     name = "Blog"
-    url = "https://www.blog.halbtonfoto.de"
+    url = "https://blog.halbtonfoto.de"
     weight = 1
 
   [[menu.main]]
     name = "Projekte"
-    url = "/categories/"
+    url = "https://projekte.halbtonfoto.de"
     weight = 3
 
-  #[[menu.main]]
+  [[menu.main]]
     name = "About"
     url = "/about"
     weight = 4
 
   [[menu.main]]
     name = "Impressum"
-    url = "/about"
+    url = "/impressum"
     weight = 5
 
 [params]
     since = 2018
     author = "Luis Lessing"               # Author's name
     subtitle = "digital, analog und alles dazwischen"       # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
+    cdn_url = "https://halbtonfoto.de"           # Base CDN URL
+    home_mode = "https://halbtonfoto.de"
 
     google_verification = ""
 
