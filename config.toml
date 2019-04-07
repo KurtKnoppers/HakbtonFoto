@@ -26,7 +26,7 @@ disqusShortname = "yourdiscussshortname"
 [menu]
   [[menu.main]]
     name = "Blog"
-    url = "/posts/"
+    url = "https://www.blog.halbtonfoto.de"
     weight = 1
 
   [[menu.main]]
@@ -34,19 +34,19 @@ disqusShortname = "yourdiscussshortname"
     url = "/categories/"
     weight = 3
 
-  [[menu.main]]
+  #[[menu.main]]
     name = "About"
     url = "/about"
     weight = 4
 
   [[menu.main]]
     name = "Impressum"
-    url = "/impressum"
+    url = "/about"
     weight = 5
 
 [params]
-    since = 2012
-    author = "Fastbyte01"               # Author's name
+    since = 2018
+    author = "Luis Lessing"               # Author's name
     subtitle = "digital, analog und alles dazwischen"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
