@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: infallible-turing-35739e.netlify.com
+Token: d102da6a9b3dea5148aa9e0b465c228b8143753c3501e58156f151a03456f257
